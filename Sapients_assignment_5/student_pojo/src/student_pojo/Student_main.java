@@ -78,6 +78,7 @@ public class Student_main {
 		}
 		catch(Exception e) {
 			System.out.println("Invalid id (Id not found)");
+			e.printStackTrace();
 		}
 		finally {
 			System.gc();

@@ -1,0 +1,38 @@
+article>h1{
+    font-weight: bold;
+    color: black;
+    background-image:url(image.jpeg);
+    background-size: 100%;
+    text-align: center;
+    margin-top: 0;
+    height:70px;
+    padding-top: 30px;
+    margin:-10px;
+    /*font-size:2vw;*/
+    }
+article>ul{
+    color:#73B805;
+    font-weight: bold;
+}
+article>h3{
+    color:black;
+}
+div>h3{
+    font-weight: bold;
+    color:black;
+    background-color:#9EE52A;
+    border:1px solid white;
+    margin:10px -10px 10px -10px;
+    padding-left:10px;
+   
+}
+div>a{
+    color:#4A4C45;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: #E6E9E0;
+    /*font-size:1.25vw;*/
+}

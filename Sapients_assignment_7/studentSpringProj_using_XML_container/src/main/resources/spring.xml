@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.2.xsd">
+ <bean id="student0" class="com.spring.student.StudentData">
+<property name="sid" value="8001"></property>
+<property name="name" value="Sireesha"></property>
+<property name="city" value="Vijayawada"></property>
+</bean>
+
+<bean id="student1" class="com.spring.student.StudentData">
+<property name="sid" value="8002"></property>
+<property name="name" value="Divya"></property>
+<property name="city" value="Lucknow"></property>
+</bean>
+
+<bean id="student2" class="com.spring.student.StudentData">
+<property name="sid" value="8003"></property>
+<property name="name" value="Sneha"></property>
+<property name="city" value="Kolkata"></property>
+</bean>
+
+<bean id="student3" class="com.spring.student.StudentData">
+<property name="sid" value="8004"></property>
+<property name="name" value="Chaitra"></property>
+<property name="city" value="Chennai"></property>
+</bean>
+
+<bean id="student4" class="com.spring.student.StudentData">
+<property name="sid" value="8005"></property>
+<property name="name" value="Lekha"></property>
+<property name="city" value="Hyderabad"></property>
+</bean>
+
+<bean id="student5" class="com.spring.student.StudentData">
+<property name="sid" value="8006"></property>
+<property name="name" value="Dhruva"></property>
+<property name="city" value="Indore"></property>
+</bean>
+
+<bean id="student6" class="com.spring.student.StudentData">
+<property name="sid" value="8007"></property>
+<property name="name" value="Lakshmi"></property>
+<property name="city" value="Vizag"></property>
+</bean>
+
+<bean id="student7" class="com.spring.student.StudentData">
+<property name="sid" value="8008"></property>
+<property name="name" value="Jinal"></property>
+<property name="city" value="Surat"></property>
+</bean>
+
+<bean id="student8" class="com.spring.student.StudentData">
+<property name="sid" value="8009"></property>
+<property name="name" value="Krupa"></property>
+<property name="city" value="Ahmedabad"></property>
+</bean>
+
+<bean id="student9" class="com.spring.student.StudentData">
+<property name="sid" value="8010"></property>
+<property name="name" value="Nivetha"></property>
+<property name="city" value="Agra"></property>
+</bean>
+
+</beans>
+
+

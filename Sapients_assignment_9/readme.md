@@ -1,6 +1,6 @@
-#To run codes in : studentMVCsprintboot and welcomeMVCspringBoot folders
+# To run codes in : studentMVCsprintboot and welcomeMVCspringBoot folders
 
-##Instructions:
+## Instructions:
 
 ### Use http://localhost:8081/
-###reason: Mentioned as 'server.port=8081' in src/main/resources/application.properties
+## reason: Mentioned as 'server.port=8081' in src/main/resources/application.properties
